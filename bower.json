@@ -17,8 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.6",
-    "font-awesome": "~4.5.0",
+    "bootstrap": "~5.3.3",
+    "font-awesome": "~6.5.2",
     "octicons": "~3.3.0"
   }
 }
