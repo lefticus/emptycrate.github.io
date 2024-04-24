@@ -18,15 +18,10 @@ redirect_from:
 
   <div class='container'>
     <div class="row">
-      <div class="col-md-8">
-        {% for post in paginator.posts %}
-          {% assign current_post = post %}
-          {% include post_synopsis.html %}
-        {% endfor %}
-      </div>
-      <div class="col-md-4">
-        {% include oreilly.html %}
-      </div>
+      {% for post in paginator.posts %}
+        {% assign current_post = post %}
+        {% include post_synopsis.html %}
+      {% endfor %}
     </div>
 
 
@@ -62,7 +57,6 @@ redirect_from:
       </ul>
     </nav>
 
-    <script id="dsq-count-scr" src="//emptycrate.disqus.com/count.js" async></script>
 
 
 </body>
